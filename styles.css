@@ -149,3 +149,22 @@ body {
   padding: 24px;
   margin-top: 60px;
 }
+
+.news-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.headline-column {
+  width: 100%;
+}
+
+.sidebar-column {
+  width: 100%;
+}
+
+.featured-headline {
+  margin-bottom: 24px;
+}
