@@ -26,17 +26,29 @@ body {
   line-height: 1.6;
 }
 
+/* Global container width */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 /* Header */
 .header {
   background: var(--white);
   box-shadow: var(--shadow);
+  position: relative;
+  z-index: 10;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 12px 40px;
   min-height: 72px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative; /* ganti dari sticky */
-  z-index: 10;
 }
 
 /* Logo */
