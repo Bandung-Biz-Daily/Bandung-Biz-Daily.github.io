@@ -66,15 +66,15 @@ footer {
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .logo img {
-  height: 50px;
+  height: 28px;
   width: auto;
 }
 
 .logo h1 {
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
 }
