@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bandung-biz-daily.github.io/bandung-biz-daily/sitemap.xml
