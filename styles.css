@@ -26,14 +26,14 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
 .header {
   background: var(--white);
   box-shadow: var(--shadow);
-  padding: 18px 40px;
+  padding: 12px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 72px;
   position: sticky;
   top: 0;
   z-index: 100;
