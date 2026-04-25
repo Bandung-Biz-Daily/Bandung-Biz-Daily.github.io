@@ -113,3 +113,23 @@ footer {
   text-decoration: none;
   font-weight: 600;
 }
+
+.article-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.article-content h1 {
+  margin-bottom: 12px;
+}
+
+.article-meta {
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.article-content p {
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
