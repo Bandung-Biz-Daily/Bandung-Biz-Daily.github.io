@@ -2,98 +2,101 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bandung Biz Daily</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+  <!-- Top Strip -->
+  <div class="top-strip">
+    <span>Breaking:</span> Creative Market Weekend hadir 27–28 April 2026
+  </div>
+
   <!-- Header -->
-  <header class="header">
-  <div class="header-inner">
-    <div class="brand-wrap">
-      <div class="logo">
-        <img src="assets/images/logo-bandung-biz-daily.png" alt="Bandung Biz Daily Logo">
+  <header class="main-header">
+    <div class="logo">Bandung Biz Daily</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">UMKM News</a>
+      <a href="#">Brand Stories</a>
+      <a href="#">Event</a>
+    </nav>
+  </header>
+
+  <!-- Hero Headline -->
+  <section class="hero-grid">
+    <div class="main-headline">
+      <img src="assets/images/headline.jpg" alt="headline">
+      <div class="headline-content">
+        <span class="category">TOP STORY</span>
+        <h1>UMKM Kuliner Bandung Tembus Pasar Nasional</h1>
+        <p>
+          Brand makanan lokal ekspansi ke Jakarta dan Surabaya melalui
+          distribusi modern dan digital marketplace.
+        </p>
       </div>
-      <div class="tagline">Daily News for Local Business Growth</div>
     </div>
 
-    <nav class="nav-menu">
-      <a href="#">Home</a>
-      <a href="#news">UMKM News</a>
-      <a href="#stories">Brand Stories</a>
-      <a href="#events">Event & Expo</a>
-    </nav>
-  </div>
-</header>
-  
-  <!-- Hero -->
-  <section class="hero">
-    <h1>Info Harian Bisnis Lokal Bandung</h1>
-    <p>
-      Portal berita, insight, dan kisah pertumbuhan UMKM Bandung.
-      Menghubungkan bisnis lokal dengan peluang yang lebih besar.
-    </p>
+    <aside class="hero-sidebar">
+      <div class="side-card">
+        <span>Trending</span>
+        <h3>5 Brand Kuliner Viral Minggu Ini</h3>
+      </div>
+      <div class="side-card">
+        <span>Insight</span>
+        <h3>Tren Belanja Konsumen Q2 2026</h3>
+      </div>
+      <div class="side-card">
+        <span>Event</span>
+        <h3>Expo UMKM Akhir Pekan Bandung</h3>
+      </div>
+    </aside>
   </section>
 
-  <!-- Featured News -->
-  <main class="news-section" id="news">
-    <div class="news-layout">
-      <section class="headline-column">
-        <h2 style="margin-bottom: 24px;">Top Headlines</h2>
-        <article class="news-card featured-headline">
-          <h3>UMKM Kuliner Bandung Tembus Pasar Nasional</h3>
-          <p>Brand makanan lokal mulai ekspansi ke Jakarta dan Surabaya melalui kolaborasi marketplace dan jaringan distribusi modern.</p>
-        </article>
-
-        <div class="news-grid">
-          <article class="news-card">
-            <h3>Creative Market Weekend Dorong Penjualan UMKM</h3>
-            <p>Event komunitas di pusat kota Bandung menghadirkan lebih dari 100 tenant lokal.</p>
-          </article>
-          <article class="news-card">
-            <h3>Fashion Lokal Bandung Kian Dilirik Investor</h3>
-            <p>Brand streetwear dan modest wear menunjukkan pertumbuhan signifikan sepanjang tahun.</p>
-          </article>
-        </div>
-      </section>
-
-      <aside class="sidebar-column">
-        <h2 style="margin-bottom: 24px;">Trending</h2>
-        <article class="news-card">
-          <h3>5 UMKM Kuliner Viral Minggu Ini</h3>
-          <p>Daftar brand lokal yang sedang ramai dibicarakan.</p>
-        </article>
-        <article class="news-card">
-          <h3>Event Expo Terdekat</h3>
-          <p>Agenda bazaar dan expo bisnis lokal akhir pekan.</p>
-        </article>
-        <article class="news-card">
-          <h3>Insight Pasar</h3>
-          <p>Tren belanja konsumen Bandung kuartal ini.</p>
-        </article>
-      </aside>
+  <!-- Folder Categories -->
+  <section class="folder-section">
+    <h2>Explore Categories</h2>
+    <div class="folder-grid">
+      <div class="folder-card">
+        <h3>UMKM News</h3>
+        <p>Berita harian dan perkembangan bisnis lokal.</p>
+      </div>
+      <div class="folder-card">
+        <h3>Brand Stories</h3>
+        <p>Kisah sukses dan strategi pertumbuhan brand.</p>
+      </div>
+      <div class="folder-card">
+        <h3>Event Coverage</h3>
+        <p>Liputan expo, corporate, dan komunitas.</p>
+      </div>
     </div>
-  </main>
+  </section>
 
-  <!-- Brand Stories -->
-  <section class="news-section" id="stories">
-    <h2 style="margin-bottom: 24px;">Brand Stories</h2>
-    <div class="news-grid">
-      <article class="news-card">
-        <h3>Dari Garasi ke Retail Modern</h3>
-        <p>Kisah UMKM craft Bandung yang berkembang dari usaha rumahan menjadi brand retail.</p>
+  <!-- Latest Feed -->
+  <section class="news-feed">
+    <h2>Latest Updates</h2>
+    <div class="feed-grid">
+      <article class="feed-card">
+        <h3>Fashion Lokal Bandung Kian Dilirik Investor</h3>
+        <p>Pertumbuhan brand streetwear meningkat signifikan.</p>
       </article>
-      <article class="news-card">
-        <h3>Kopi Lokal yang Viral</h3>
-        <p>Bagaimana strategi branding digital membawa coffee brand lokal dikenal luas.</p>
+      <article class="feed-card">
+        <h3>Creative Weekend Dorong Penjualan Tenant</h3>
+        <p>Lebih dari 100 UMKM ikut serta.</p>
+      </article>
+      <article class="feed-card">
+        <h3>Corporate Gathering Telkomsel di Lembang</h3>
+        <p>Dokumentasi event perusahaan dan community activation.</p>
       </article>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <p>© 2026 Bandung Biz Daily — Daily News for Local Business Growth</p>
+  <footer>
+    © 2026 Bandung Biz Daily
   </footer>
+
 </body>
 </html>
 
