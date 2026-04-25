@@ -234,27 +234,4 @@ body {
     font-size: 16px;
   }
 
-  .news-layout {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .news-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .news-card {
-    padding: 18px;
-  }
-
-  .featured-image img {
-    aspect-ratio: 16 / 9;
-    border-radius: 14px;
-  }
-
-  .footer {
-    padding: 18px 16px;
-    font-size: 14px;
-  }
-}
+ 
