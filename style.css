@@ -62,3 +62,19 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
