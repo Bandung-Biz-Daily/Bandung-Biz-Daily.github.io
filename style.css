@@ -6,8 +6,10 @@
 }
 
 body {
-  background: #f8f9fa;
+  background: #eef6ff;
   color: #222;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
