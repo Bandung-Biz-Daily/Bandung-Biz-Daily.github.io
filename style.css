@@ -85,6 +85,31 @@ footer {
   border-radius: 12px;
 }
 
+/* versi HP */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 14px 20px;
+  }
+
+  .logo img {
+    width: 42px;
+    height: auto;
+  }
+
+  .logo h1 {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .navbar ul {
+    gap: 12px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+}
+
 .logo h1 {
   font-size: 20px;
   margin: 0;
