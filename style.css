@@ -13,8 +13,8 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
-  background: #111;
+  padding: 20px 40px;
+  background: #1f3a5f;
   color: white;
 }
 
